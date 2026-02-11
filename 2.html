@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>MedLink Advisors - Medical Consulting Services</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style type="text/tailwindcss">
+        :root {
+            --primary-turquoise: #00ced1;
+            --primary-dark: #008b8b;
+            --bg-soft: #f8fafc;
+        }
+        @layer base {
+            body {
+                @apply font-display bg-white text-slate-800 antialiased;
+            }
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#00ced1",
+                        "turquoise": {
+                            50: '#f0fdfa',
+                            100: '#ccfbf1',
+                            500: '#14b8a6',
+                            600: '#0d9488',
+                        }
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"]
+                    }
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-white">
+<header class="bg-white/90 backdrop-blur-md sticky top-0 z-50 border-b border-slate-100">
+<nav class="max-w-7xl mx-auto px-6 lg:px-8">
+<div class="flex justify-between items-center py-5">
+<div class="flex items-center space-x-2">
+<span class="material-icons text-primary text-3xl">medical_services</span>
+<span class="text-2xl font-bold tracking-tight text-slate-900">MedLink <span class="text-primary">Advisors</span></span>
+</div>
+<ul class="hidden md:flex space-x-10 text-sm font-semibold text-slate-600">
+<li><a class="hover:text-primary transition-colors" href="#">Home</a></li>
+<li><a class="hover:text-primary transition-colors" href="#about">About Us</a></li>
+<li><a class="hover:text-primary transition-colors" href="#services">Services</a></li>
+<li><a class="hover:text-primary transition-colors" href="#reviews">Reviews</a></li>
+<li><a class="bg-primary text-white px-6 py-2 rounded-full hover:bg-turquoise-600 transition-all" href="#contact">Contact Us</a></li>
+</ul>
+</div>
+</nav>
+</header>
+<section class="relative overflow-hidden bg-white py-16 lg:py-24">
+<div class="max-w-7xl mx-auto px-6 lg:px-8">
+<div class="grid lg:grid-cols-2 gap-12 items-center">
+<div class="max-w-xl">
+<h1 class="text-5xl lg:text-6xl font-extrabold text-slate-900 leading-[1.1] mb-8">
+                    Elevating <span class="text-primary">Healthcare</span> Excellence.
+                </h1>
+<p class="text-xl text-slate-600 mb-10 leading-relaxed">
+                    We bridge the gap between clinical practice and operational efficiency. Expert consulting for modern medical professionals.
+                </p>
+<div class="flex flex-col sm:flex-row gap-4">
+<button class="bg-primary text-white px-8 py-4 rounded-xl font-bold text-lg hover:shadow-lg hover:shadow-turquoise-500/30 transition-all">Get Started Today</button>
+<button class="border-2 border-slate-200 text-slate-700 px-8 py-4 rounded-xl font-bold text-lg hover:bg-slate-50 transition-all">View Our Work</button>
+</div>
+</div>
+<div class="relative">
+<div class="absolute -top-10 -right-10 w-64 h-64 bg-turquoise-100 rounded-full mix-blend-multiply filter blur-3xl opacity-70"></div>
+<div class="absolute -bottom-10 -left-10 w-64 h-64 bg-blue-100 rounded-full mix-blend-multiply filter blur-3xl opacity-70"></div>
+<img class="relative rounded-3xl shadow-2xl z-10 w-full h-[500px] object-cover" data-alt="A welcoming consultant talking to a doctor in a modern office" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBMgt2TnXJvHHOGDfk-S5zl3MZOfNaHRFnn-ZvWjU2hYURYwgwC6r6nwT1_2pVhVkMeh6DHjri7A7PpEY91oD474ZIRTh1Kz-iDMt1Ba8mWZCyUPnbZtrLx1uF1Cy-LtTQuQidxttKnFpSuyjNQGbYDmDDSp_lKqoTpNUbrzISk-JYxv3Kk7yu-an4DhLCARbFwZelDL-oL7qdY1hn9wukJw7_fOoSy3oPgAF4CSTL_iq963QEKFrcZpROcKKzYgQjg81YW54H1zQM"/>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-slate-50" id="about">
+<div class="max-w-7xl mx-auto px-6 lg:px-8">
+<div class="grid lg:grid-cols-2 gap-16 items-center">
+<div>
+<img class="rounded-2xl shadow-lg w-full h-[400px] object-cover" data-alt="Modern medical facility hallway" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD6Uv4-JLKZqnKnZaAJnxPciXuHMoegru8d33n2R6M6m3J14Y-rqXmkuLwd9TpLZG9fvh8yJRC84AJdIq25B9bv57LCZj_VT8SwMXDp-odBJ34uTEy6thBWlBlYLc3d7nBzNwKcW1_jBecGoUxhXmOrvqkbGZUD6cRKyPeWtXGLn1jMXS3vp8DWENtIA7ZlZBeC5cjEBD1s_nJXKoALf1SyojMGFUDQAD1NudWpSr670rv9Ax67fPUVBhcu51JE_ITr1YeHj3RuOwc"/>
+</div>
+<div>
+<span class="text-primary font-bold tracking-widest uppercase text-sm">About Us</span>
+<h2 class="text-4xl font-bold text-slate-900 mt-4 mb-6">Expertise Driven by Experience</h2>
+<p class="text-lg text-slate-600 mb-6 leading-relaxed">
+                    MedLink Advisors was founded on the principle that medical providers deserve the same level of care in their business operations as they provide to their patients.
+                </p>
+<p class="text-lg text-slate-600 mb-8 leading-relaxed">
+                    Our team of veteran consultants brings decades of experience in clinical management, health law, and financial strategy to help your practice thrive in an ever-changing landscape.
+                </p>
+<div class="grid grid-cols-2 gap-8">
+<div>
+<div class="text-3xl font-bold text-primary">15+</div>
+<div class="text-slate-500 font-medium">Years Experience</div>
+</div>
+<div>
+<div class="text-3xl font-bold text-primary">500+</div>
+<div class="text-slate-500 font-medium">Practices Helped</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-white" id="services">
+<div class="max-w-7xl mx-auto px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-bold text-slate-900">Our Strategic Services</h2>
+<p class="text-slate-600 mt-4 text-lg">Comprehensive solutions tailored to your unique medical practice.</p>
+</div>
+<div class="grid md:grid-cols-3 gap-8">
+<div class="bg-white p-10 rounded-[2.5rem] shadow-sm hover:shadow-xl border border-slate-100 transition-all group">
+<div class="w-16 h-16 bg-turquoise-50 rounded-2xl flex items-center justify-center mb-8 group-hover:bg-primary transition-colors">
+<span class="material-symbols-outlined text-primary group-hover:text-white text-3xl">insights</span>
+</div>
+<h3 class="text-2xl font-bold text-slate-900 mb-4">Market Strategy</h3>
+<p class="text-slate-600 leading-relaxed mb-6">In-depth market analysis and expansion planning to grow your patient base effectively.</p>
+<a class="text-primary font-bold flex items-center gap-2 hover:gap-3 transition-all" href="#">Learn more <span class="material-icons text-sm">arrow_forward</span></a>
+</div>
+<div class="bg-white p-10 rounded-[2.5rem] shadow-sm hover:shadow-xl border border-slate-100 transition-all group">
+<div class="w-16 h-16 bg-turquoise-50 rounded-2xl flex items-center justify-center mb-8 group-hover:bg-primary transition-colors">
+<span class="material-symbols-outlined text-primary group-hover:text-white text-3xl">gavel</span>
+</div>
+<h3 class="text-2xl font-bold text-slate-900 mb-4">Compliance</h3>
+<p class="text-slate-600 leading-relaxed mb-6">Full HIPAA and regulatory audits to ensure your practice stays ahead of legal requirements.</p>
+<a class="text-primary font-bold flex items-center gap-2 hover:gap-3 transition-all" href="#">Learn more <span class="material-icons text-sm">arrow_forward</span></a>
+</div>
+<div class="bg-white p-10 rounded-[2.5rem] shadow-sm hover:shadow-xl border border-slate-100 transition-all group">
+<div class="w-16 h-16 bg-turquoise-50 rounded-2xl flex items-center justify-center mb-8 group-hover:bg-primary transition-colors">
+<span class="material-symbols-outlined text-primary group-hover:text-white text-3xl">hub</span>
+</div>
+<h3 class="text-2xl font-bold text-slate-900 mb-4">Operations</h3>
+<p class="text-slate-600 leading-relaxed mb-6">Workflow optimization and technology integration to reduce overhead and improve care.</p>
+<a class="text-primary font-bold flex items-center gap-2 hover:gap-3 transition-all" href="#">Learn more <span class="material-icons text-sm">arrow_forward</span></a>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-slate-900 text-white">
+<div class="max-w-7xl mx-auto px-6 lg:px-8">
+<div class="grid lg:grid-cols-2 gap-16 items-center">
+<div>
+<h2 class="text-4xl font-bold mb-8">The MedLink Edge</h2>
+<div class="space-y-8">
+<div class="flex gap-6">
+<div class="flex-shrink-0 w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-primary">verified</span>
+</div>
+<div>
+<h4 class="text-xl font-bold mb-2">Physician-First Design</h4>
+<p class="text-slate-400">Our strategies are built around clinical workflows, not just balance sheets.</p>
+</div>
+</div>
+<div class="flex gap-6">
+<div class="flex-shrink-0 w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-primary">bolt</span>
+</div>
+<div>
+<h4 class="text-xl font-bold mb-2">Rapid Implementation</h4>
+<p class="text-slate-400">We don't just advise; we help you execute changes in weeks, not months.</p>
+</div>
+</div>
+<div class="flex gap-6">
+<div class="flex-shrink-0 w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-primary">analytics</span>
+</div>
+<div>
+<h4 class="text-xl font-bold mb-2">Proprietary Analytics</h4>
+<p class="text-slate-400">Access exclusive data tools specifically designed for medical ROI tracking.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="relative">
+<img class="rounded-3xl shadow-2xl brightness-90" data-alt="Medical data visualization" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCkkPFxEMpqgcZaEdQZzTXqdLz61KiMxm0uTP7BKD1M-gciC3VZbf8dDnk0JOSeDiVRuZj2BskjqswHMpVgjNdb7mP1cIxl2XQS-CADYpTmJjJk5WIxmKJR-7tozxdOCfxI2FWZD0WHd8DyU5H0drmwW49QAbFnmUeWai9WsgbcWNnvOA4JqcW5lzB9TvcU4sJBLigN9-QEf4uaSel2zo5syMEaiHIMDYkdetkDjqEedAqtciVQ2R3J9a9GEvZ2ymZ7rH679QEIG1o"/>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-white" id="reviews">
+<div class="max-w-7xl mx-auto px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-bold text-slate-900">Trusted by Providers</h2>
+</div>
+<div class="grid md:grid-cols-3 gap-8">
+<div class="p-8 border border-slate-100 rounded-2xl bg-slate-50">
+<div class="flex text-yellow-400 mb-4">
+<span class="material-icons">star</span>
+<span class="material-icons">star</span>
+<span class="material-icons">star</span>
+<span class="material-icons">star</span>
+<span class="material-icons">star</span>
+</div>
+<p class="text-slate-600 mb-6 italic">"MedLink transformed our multi-specialty clinic's billing cycle and improved our collections by 22% in the first quarter."</p>
+<div class="font-bold text-slate-900">Dr. Sarah Jenkins</div>
+<div class="text-sm text-slate-500">Chief Medical Officer</div>
+</div>
+<div class="p-8 border border-slate-100 rounded-2xl bg-slate-50">
+<div class="flex text-yellow-400 mb-4">
+<span class="material-icons">star</span>
+<span class="material-icons">star</span>
+<span class="material-icons">star</span>
+<span class="material-icons">star</span>
+<span class="material-icons">star</span>
+</div>
+<p class="text-slate-600 mb-6 italic">"The compliance audit was thorough and eye-opening. We now feel completely confident in our patient data security protocols."</p>
+<div class="font-bold text-slate-900">Mark Thompson</div>
+<div class="text-sm text-slate-500">Clinic Administrator</div>
+</div>
+<div class="p-8 border border-slate-100 rounded-2xl bg-slate-50">
+<div class="flex text-yellow-400 mb-4">
+<span class="material-icons">star</span>
+<span class="material-icons">star</span>
+<span class="material-icons">star</span>
+<span class="material-icons">star</span>
+<span class="material-icons">star</span>
+</div>
+<p class="text-slate-600 mb-6 italic">"A breath of fresh air in the consulting world. They actually understand the day-to-day pressures of being a doctor."</p>
+<div class="font-bold text-slate-900">Dr. Alan Chen</div>
+<div class="text-sm text-slate-500">Private Practitioner</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-turquoise-50/30" id="contact">
+<div class="max-w-7xl mx-auto px-6 lg:px-8">
+<div class="grid lg:grid-cols-2 gap-16">
+<div>
+<h2 class="text-4xl font-bold text-slate-900 mb-6">Let's Connect</h2>
+<p class="text-lg text-slate-600 mb-10">Ready to optimize your practice? Our advisors are standing by for a complimentary strategy session.</p>
+<div class="space-y-6">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 bg-white rounded-full shadow-sm flex items-center justify-center text-primary">
+<span class="material-icons">location_on</span>
+</div>
+<div>
+<div class="font-bold">Headquarters</div>
+<div class="text-slate-600">123 Medical Plaza, Chicago, IL 60611</div>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 bg-white rounded-full shadow-sm flex items-center justify-center text-primary">
+<span class="material-icons">call</span>
+</div>
+<div>
+<div class="font-bold">Call Us</div>
+<div class="text-slate-600">+1 (800) MED-LINK</div>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 bg-white rounded-full shadow-sm flex items-center justify-center text-primary">
+<span class="material-icons">email</span>
+</div>
+<div>
+<div class="font-bold">Email</div>
+<div class="text-slate-600">contact@medlinkadvisors.com</div>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-white p-10 rounded-3xl shadow-xl border border-slate-100">
+<form class="space-y-6">
+<div class="grid md:grid-cols-2 gap-6">
+<div>
+<label class="block text-sm font-bold text-slate-700 mb-2">First Name</label>
+<input class="w-full bg-slate-50 border-slate-200 rounded-xl px-4 py-3 focus:ring-primary focus:border-primary" placeholder="Jane" type="text"/>
+</div>
+<div>
+<label class="block text-sm font-bold text-slate-700 mb-2">Last Name</label>
+<input class="w-full bg-slate-50 border-slate-200 rounded-xl px-4 py-3 focus:ring-primary focus:border-primary" placeholder="Smith" type="text"/>
+</div>
+</div>
+<div>
+<label class="block text-sm font-bold text-slate-700 mb-2">Email Address</label>
+<input class="w-full bg-slate-50 border-slate-200 rounded-xl px-4 py-3 focus:ring-primary focus:border-primary" placeholder="jane@clinic.com" type="email"/>
+</div>
+<div>
+<label class="block text-sm font-bold text-slate-700 mb-2">Message</label>
+<textarea class="w-full bg-slate-50 border-slate-200 rounded-xl px-4 py-3 focus:ring-primary focus:border-primary" placeholder="Tell us about your practice needs..." rows="4"></textarea>
+</div>
+<button class="w-full bg-primary text-white font-bold py-4 rounded-xl hover:bg-turquoise-600 transition-all shadow-lg shadow-turquoise-500/20">Send Message</button>
+</form>
+</div>
+</div>
+</div>
+</section>
+<footer class="bg-white py-12 border-t border-slate-100">
+<div class="max-w-7xl mx-auto px-6 lg:px-8">
+<div class="flex flex-col md:flex-row justify-between items-center gap-8">
+<div class="flex items-center space-x-2">
+<span class="material-icons text-primary text-2xl">medical_services</span>
+<span class="text-xl font-bold tracking-tight text-slate-900">MedLink <span class="text-primary">Advisors</span></span>
+</div>
+<div class="text-slate-400 text-sm">
+                © 2024 MedLink Advisors Consulting Group. All rights reserved.
+            </div>
+<div class="flex space-x-6 text-slate-400">
+<a class="hover:text-primary" href="#"><span class="material-icons">facebook</span></a>
+<a class="hover:text-primary" href="#"><span class="material-symbols-outlined">share</span></a>
+<a class="hover:text-primary" href="#"><span class="material-symbols-outlined">mail</span></a>
+</div>
+</div>
+</div>
+</footer>
+
+</body></html>

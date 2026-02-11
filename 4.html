@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Global Health Advisors - Refined Blue Theme</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#39a3ef",
+                        "accent-secondary": "#312e81","silver-gray": "#94a3b8",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101a22",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style type="text/tailwindcss">
+        body { font-family: 'Manrope', sans-serif; }
+        .indigo-border-gradient {
+            border: 1px solid transparent;
+            background: linear-gradient(white, white) padding-box,
+                        linear-gradient(to bottom right, #312e81, #39a3ef) border-box;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-800 dark:text-slate-200 font-display transition-colors duration-300">
+<nav class="sticky top-0 z-50 w-full bg-white/90 dark:bg-background-dark/90 backdrop-blur-md border-b border-slate-200 dark:border-slate-800">
+<div class="max-w-7xl mx-auto px-6 lg:px-12 h-20 flex items-center justify-between">
+<div class="flex items-center space-x-2">
+<div class="w-10 h-10 bg-primary flex items-center justify-center rounded-lg shadow-lg shadow-primary/20">
+<span class="material-icons-round text-white">health_and_safety</span>
+</div>
+<span class="text-xl font-bold tracking-tight text-slate-900 dark:text-white uppercase">Global Health <span class="text-primary">Advisors</span></span>
+</div>
+<div class="hidden md:flex items-center space-x-10 text-sm font-semibold text-slate-600 dark:text-slate-300">
+<a class="hover:text-primary transition-colors" href="#about">About Us</a>
+<a class="hover:text-primary transition-colors" href="#services">Services</a>
+<a class="hover:text-primary transition-colors" href="#different">Why Us</a>
+<a class="hover:text-primary transition-colors" href="#reviews">Success Stories</a>
+</div>
+<div class="flex items-center space-x-4">
+<button class="bg-primary text-white px-6 py-2.5 rounded-lg text-sm font-bold shadow-lg shadow-primary/30 hover:bg-primary/90 transition-all">Book Consultation</button>
+</div>
+</div>
+</nav>
+<section class="relative h-[85vh] flex items-center overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover brightness-[0.85]" data-alt="Wide shot of modern medical consultation office with doctors" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCL8ZiPG5G2Bswv0hmfTnPInokecfDIIdNQPZGyyMqoDXVz3OIjKJ5RiVfgy1qBwRyK10qMlA2lY-OMndrTfoez1AzJilDefkXQS9WHR9FViwsDgDbhNua0MCBTXL2JVB--_qo4wZ7ya_Vnwo4N0dL_gZCbbm5mz8qv7tzj_3oWDqND3KmAy0Lf-8IDt2PsgYnAzgyPCe_TZnitdfiq3CGYOmTEmFJbUdPpBUtDl_PQiElFrFT8fvJoSI62XvgMbuzS5deyd-RqZOs"/>
+<div class="absolute inset-0 bg-gradient-to-r from-background-dark/80 via-background-dark/40 to-transparent"></div>
+</div>
+<div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 w-full">
+<div class="max-w-2xl">
+<div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-primary/20 border border-primary/30 text-primary mb-6">
+<span class="text-xs font-bold uppercase tracking-widest">Premium Healthcare Consulting</span>
+</div>
+<h1 class="text-5xl lg:text-7xl font-extrabold text-white leading-[1.1] mb-6 tracking-tight">
+                Global Expertise for <span class="text-primary">Local Health</span> Solutions.
+            </h1>
+<p class="text-xl text-slate-100 mb-10 leading-relaxed font-light">
+                Providing world-class medical consultancy and strategic healthcare management services to optimize patient outcomes and operational excellence.
+            </p>
+<div class="flex flex-col sm:flex-row gap-4">
+<button class="bg-primary hover:bg-primary/90 text-white px-8 py-4 rounded-xl font-bold transition-all transform hover:-translate-y-1 flex items-center justify-center">
+                    Our Services
+                    <span class="material-icons-round ml-2 text-sm">arrow_forward</span>
+</button>
+<button class="bg-white/10 backdrop-blur-md border border-white/20 hover:bg-white/20 text-white px-8 py-4 rounded-xl font-bold transition-all flex items-center justify-center">
+                    View Portfolio
+                </button>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-white dark:bg-background-dark" id="about">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+<div class="relative">
+<div class="absolute -top-4 -left-4 w-24 h-24 bg-accent-secondary/10 rounded-xl -z-10"></div>
+<img class="rounded-2xl shadow-2xl w-full h-[500px] object-cover" data-alt="Close up of a doctor reviewing a digital healthcare report" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6A2laKW9HXqLdXM1HSCh1xUiM91Kzhq3UovCFa3a1vsbLoisLCsMBgH2RRQoLEoZareIXvkiegyFoAmLLOlU6h-2OsSi5_qZwjfH3ARI-_hTSFsyOFSv0qrsetzOw6pH2Zp85NJAWQY71OS1MTbNaXTz5J9fO1AhZYiaSjMekpX2pYyl4zF6BclBzEtxUFc-asTUtqNq1O22W3xGbHTNNjFf_YO8Q52Rr1FCAOsEDzX8LLUN2eBi0la21tMHdwpsntgCtlsvWrBE"/>
+<div class="absolute -bottom-6 -right-6 bg-accent-secondary p-8 rounded-2xl shadow-xl text-white">
+<span class="text-4xl font-extrabold">15+</span>
+<p class="text-sm font-medium opacity-90">Years of Clinical Excellence</p>
+</div>
+</div>
+<div>
+<h2 class="text-primary font-bold tracking-widest uppercase text-sm mb-4">Who We Are</h2>
+<h3 class="text-4xl font-extrabold text-slate-900 dark:text-white mb-6">Precision, Compassion, and Global Innovation</h3>
+<p class="text-slate-600 dark:text-slate-400 text-lg leading-relaxed mb-8">
+                    Global Health Advisors is a premier medical consultancy firm dedicated to transforming healthcare ecosystems. We bridge the gap between advanced clinical technology and patient-centric care models.
+                </p>
+<ul class="space-y-4">
+<li class="flex items-start">
+<span class="material-icons-round text-accent-secondary mr-3 mt-1">check_circle</span>
+<div>
+<h4 class="font-bold text-slate-900 dark:text-white">World-Class Specialists</h4>
+<p class="text-slate-500 dark:text-slate-400 text-sm">Access to an elite network of MDs and PhDs globally.</p>
+</div>
+</li>
+<li class="flex items-start">
+<span class="material-icons-round text-accent-secondary mr-3 mt-1">check_circle</span>
+<div>
+<h4 class="font-bold text-slate-900 dark:text-white">Strategic Optimization</h4>
+<p class="text-slate-500 dark:text-slate-400 text-sm">Reducing operational overhead while enhancing care quality.</p>
+</div>
+</li>
+<li class="flex items-start">
+<span class="material-icons-round text-accent-secondary mr-3 mt-1">check_circle</span>
+<div>
+<h4 class="font-bold text-slate-900 dark:text-white">Global Compliance</h4>
+<p class="text-slate-500 dark:text-slate-400 text-sm">Ensuring international standards of healthcare regulation.</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-slate-50 dark:bg-background-dark/50" id="services">
+<div class="max-w-7xl mx-auto px-6 lg:px-12 text-center mb-16">
+<h2 class="text-accent-secondary font-bold tracking-widest uppercase text-sm mb-4">Our Expertise</h2>
+<h3 class="text-4xl font-extrabold text-slate-900 dark:text-white">Comprehensive Medical Solutions</h3>
+<p class="max-w-2xl mx-auto mt-4 text-slate-600 dark:text-slate-400">Tailored strategic advisory services designed for the modern medical landscape.</p>
+</div>
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="bg-white dark:bg-slate-900 p-8 rounded-xl border-b-4 border-accent-secondary shadow-sm hover:shadow-xl transition-all group">
+<div class="w-14 h-14 bg-primary/10 rounded-lg flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-colors text-primary">
+<span class="material-icons-round">domain</span>
+</div>
+<h4 class="text-xl font-bold text-slate-900 dark:text-white mb-3">Hospital Management</h4>
+<p class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed mb-6">Optimizing facility operations, staffing, and clinical workflows for maximum efficiency.</p>
+<a class="text-primary text-xs font-bold uppercase tracking-wider flex items-center" href="#">Learn More <span class="material-icons-round text-xs ml-1">chevron_right</span></a>
+</div>
+<div class="bg-white dark:bg-slate-900 p-8 rounded-xl border-b-4 border-accent-secondary shadow-sm hover:shadow-xl transition-all group">
+<div class="w-14 h-14 bg-primary/10 rounded-lg flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-colors text-primary">
+<span class="material-icons-round">psychology</span>
+</div>
+<h4 class="text-xl font-bold text-slate-900 dark:text-white mb-3">Clinical Strategy</h4>
+<p class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed mb-6">Evidence-based planning to improve patient care pathways and clinical results.</p>
+<a class="text-primary text-xs font-bold uppercase tracking-wider flex items-center" href="#">Learn More <span class="material-icons-round text-xs ml-1">chevron_right</span></a>
+</div>
+<div class="bg-white dark:bg-slate-900 p-8 rounded-xl border-b-4 border-accent-secondary shadow-sm hover:shadow-xl transition-all group">
+<div class="w-14 h-14 bg-primary/10 rounded-lg flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-colors text-primary">
+<span class="material-icons-round">devices</span>
+</div>
+<h4 class="text-xl font-bold text-slate-900 dark:text-white mb-3">Health IT Integration</h4>
+<p class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed mb-6">Seamlessly implementing EHR and telemedicine platforms into existing systems.</p>
+<a class="text-primary text-xs font-bold uppercase tracking-wider flex items-center" href="#">Learn More <span class="material-icons-round text-xs ml-1">chevron_right</span></a>
+</div>
+<div class="bg-white dark:bg-slate-900 p-8 rounded-xl border-b-4 border-accent-secondary shadow-sm hover:shadow-xl transition-all group">
+<div class="w-14 h-14 bg-primary/10 rounded-lg flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-colors text-primary">
+<span class="material-icons-round">groups</span>
+</div>
+<h4 class="text-xl font-bold text-slate-900 dark:text-white mb-3">Medical Staffing</h4>
+<p class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed mb-6">Specialized recruitment for high-level clinical and administrative healthcare roles.</p>
+<a class="text-primary text-xs font-bold uppercase tracking-wider flex items-center" href="#">Learn More <span class="material-icons-round text-xs ml-1">chevron_right</span></a>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-primary text-white" id="different">
+<div class="max-w-7xl mx-auto px-6 lg:px-12 text-center">
+<h2 class="text-white/80 font-bold tracking-widest uppercase text-sm mb-4">What Makes Us Different</h2>
+<h3 class="text-4xl font-extrabold mb-16">The Global Health Advantage</h3>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+<div class="flex flex-col items-center">
+<div class="w-20 h-20 bg-white/10 rounded-full flex items-center justify-center mb-6 border border-white/20">
+<span class="material-icons-round text-white text-4xl">public</span>
+</div>
+<h4 class="text-xl font-bold mb-3">Global Reach</h4>
+<p class="text-white/80 max-w-xs leading-relaxed">Operating across 15 countries with localized strategies for diverse health markets.</p>
+</div>
+<div class="flex flex-col items-center">
+<div class="w-20 h-20 bg-white/10 rounded-full flex items-center justify-center mb-6 border border-white/20">
+<span class="material-icons-round text-white text-4xl">insights</span>
+</div>
+<h4 class="text-xl font-bold mb-3">Data-Driven Results</h4>
+<p class="text-white/80 max-w-xs leading-relaxed">Advanced analytics used to predict trends and optimize patient volume management.</p>
+</div>
+<div class="flex flex-col items-center">
+<div class="w-20 h-20 bg-white/10 rounded-full flex items-center justify-center mb-6 border border-white/20">
+<span class="material-icons-round text-white text-4xl">verified_user</span>
+</div>
+<h4 class="text-xl font-bold mb-3">Expert Panel</h4>
+<p class="text-white/80 max-w-xs leading-relaxed">Each project is overseen by a panel of board-certified specialists and legal advisors.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-white dark:bg-background-dark" id="reviews">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="flex flex-col lg:flex-row items-end justify-between mb-16">
+<div class="lg:w-1/2">
+<h2 class="text-primary font-bold tracking-widest uppercase text-sm mb-4">Testimonials</h2>
+<h3 class="text-4xl font-extrabold text-slate-900 dark:text-white">Trusted by Leaders in Medicine</h3>
+</div>
+<div class="mt-8 lg:mt-0 flex space-x-4">
+<button class="w-12 h-12 rounded-full border border-slate-200 flex items-center justify-center text-slate-400 hover:text-primary transition-colors">
+<span class="material-icons-round">chevron_left</span>
+</button>
+<button class="w-12 h-12 rounded-full border border-slate-200 flex items-center justify-center text-slate-400 hover:text-primary transition-colors">
+<span class="material-icons-round">chevron_right</span>
+</button>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="bg-slate-50 dark:bg-slate-900 p-10 rounded-2xl relative">
+<div class="flex text-accent-secondary mb-6">
+<span class="material-icons-round">star</span>
+<span class="material-icons-round">star</span>
+<span class="material-icons-round">star</span>
+<span class="material-icons-round">star</span>
+<span class="material-icons-round">star</span>
+</div>
+<p class="text-slate-700 dark:text-slate-300 italic text-lg leading-relaxed mb-8">
+                    "Global Health Advisors transformed our clinical department's efficiency within six months. Their strategic approach to medical staffing and data management saved us significant resources while improving patient care."
+                </p>
+<div class="flex items-center">
+<img class="w-14 h-14 rounded-full object-cover mr-4 ring-2 ring-primary/20" data-alt="Professional headshot of a female doctor smiling" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDA7VQYfJriTYZYgE7E6l9_aLRUi2fFAvzCtsu7xzeBVJ6w7Az6GTHFUljfRsVhpu_-hd0n1vQk1JhHWwt24FY3mopjvj106Ffvq6Lw0jt538JBNEkyQd2zrS3aR8g4nJCmzF_6MQXzn7RgFZiv1vH4Toiy3XQ91ayMt-1HmIsPiYeiJqcem3DHtXKNS4kFVGatEBIBWOt-ZAoAmtEjcveDfR2-W1BDRDDGyIOzK1LicA_ILErkb1TnTh8tdbLEvLveW_-q83VhbQE"/>
+<div>
+<h5 class="font-bold text-slate-900 dark:text-white">Dr. Sarah Jenkin</h5>
+<p class="text-sm text-slate-500">Chief Medical Officer, St. George Hospital</p>
+</div>
+</div>
+</div>
+<div class="bg-slate-50 dark:bg-slate-900 p-10 rounded-2xl relative">
+<div class="flex text-accent-secondary mb-6">
+<span class="material-icons-round">star</span>
+<span class="material-icons-round">star</span>
+<span class="material-icons-round">star</span>
+<span class="material-icons-round">star</span>
+<span class="material-icons-round">star</span>
+</div>
+<p class="text-slate-700 dark:text-slate-300 italic text-lg leading-relaxed mb-8">
+                    "Working with their IT integration team was seamless. They understood the nuances of healthcare regulation and delivered a portal that was intuitive for both staff and patients. Highly professional."
+                </p>
+<div class="flex items-center">
+<img class="w-14 h-14 rounded-full object-cover mr-4 ring-2 ring-primary/20" data-alt="Professional headshot of a male healthcare executive" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCDcO4WsmUp7mTDlQRLKY6wb9upBQPyNfr8P9GwEvBqDpgrCbEeKs9dWZpJ8kQc1rtcPo_BWGTKF2gTSWAlvO1XOq5hyEa0arC3wtyTjdPlKaKUp1YQ2jHGzdUfEft509IhUsp5p_LFjVv2zYPzLfuuCr3j6qBcqfQdpijGzhndYHxZUTkwk_ffF7btT9SBhZqJV3EToAnmemqfN2uFOfpxxT1UXdp1L7xRmD9EDdcfKCYx6DImIIZuNB9IddrYR-6KgtKxfQJ_zOc"/>
+<div>
+<h5 class="font-bold text-slate-900 dark:text-white">Marcus Thorne</h5>
+<p class="text-sm text-slate-500">Director of Operations, MedLink Systems</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-slate-50 dark:bg-background-dark/30" id="contact">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="max-w-4xl mx-auto bg-white dark:bg-slate-900 rounded-2xl shadow-2xl overflow-hidden flex flex-col md:flex-row">
+<div class="md:w-1/3 bg-accent-secondary p-12 text-white flex flex-col justify-between">
+<div>
+<h3 class="text-2xl font-bold mb-4">Let's Connect</h3>
+<p class="text-white/80 text-sm leading-relaxed mb-8">Ready to elevate your healthcare institution? Contact our advisory team today.</p>
+<div class="space-y-6">
+<div class="flex items-center">
+<span class="material-icons-round text-primary mr-4">phone</span>
+<span class="text-sm">+1 (555) 890-2344</span>
+</div>
+<div class="flex items-center">
+<span class="material-icons-round text-primary mr-4">email</span>
+<span class="text-sm">advisory@gh-global.com</span>
+</div>
+<div class="flex items-center">
+<span class="material-icons-round text-primary mr-4">location_on</span>
+<span class="text-sm">Harlow Medical Plaza, Suite 400</span>
+</div>
+</div>
+</div>
+<div class="mt-12 flex space-x-4">
+<div class="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-all cursor-pointer"><span class="material-icons-round text-xs">facebook</span></div>
+<div class="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-all cursor-pointer"><span class="material-icons-round text-xs">public</span></div>
+</div>
+</div>
+<div class="md:w-2/3 p-12">
+<form class="space-y-6">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div>
+<label class="block text-xs font-bold text-slate-500 uppercase tracking-widest mb-2">Your Name</label>
+<input class="w-full bg-slate-100 dark:bg-slate-800 border-none rounded-lg p-3 text-sm focus:ring-2 focus:ring-primary" placeholder="John Doe" type="text"/>
+</div>
+<div>
+<label class="block text-xs font-bold text-slate-500 uppercase tracking-widest mb-2">Organization</label>
+<input class="w-full bg-slate-100 dark:bg-slate-800 border-none rounded-lg p-3 text-sm focus:ring-2 focus:ring-primary" placeholder="Hospital/Clinic Name" type="text"/>
+</div>
+</div>
+<div>
+<label class="block text-xs font-bold text-slate-500 uppercase tracking-widest mb-2">Email Address</label>
+<input class="w-full bg-slate-100 dark:bg-slate-800 border-none rounded-lg p-3 text-sm focus:ring-2 focus:ring-primary" placeholder="john@example.com" type="email"/>
+</div>
+<div>
+<label class="block text-xs font-bold text-slate-500 uppercase tracking-widest mb-2">How can we help?</label>
+<textarea class="w-full bg-slate-100 dark:bg-slate-800 border-none rounded-lg p-3 text-sm focus:ring-2 focus:ring-primary" placeholder="Briefly describe your requirements..." rows="4"></textarea>
+</div>
+<button class="w-full bg-accent-secondary hover:bg-accent-secondary/90 text-white font-bold py-4 rounded-xl shadow-lg transition-all transform hover:scale-[1.02]">
+                        Send Consultation Request
+                    </button>
+</form>
+</div>
+</div>
+</div>
+</section>
+<footer class="bg-white dark:bg-background-dark py-12 border-t border-slate-200 dark:border-slate-800">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="flex flex-col md:flex-row justify-between items-center">
+<div class="flex items-center space-x-2 mb-6 md:mb-0">
+<div class="w-8 h-8 bg-primary/20 flex items-center justify-center rounded-lg">
+<span class="material-icons-round text-primary text-sm">health_and_safety</span>
+</div>
+<span class="text-lg font-bold tracking-tight text-slate-900 dark:text-white uppercase">Global Health <span class="text-primary">Advisors</span></span>
+</div>
+<div class="flex space-x-8 text-sm text-slate-500 font-medium">
+<a class="hover:text-primary transition-colors" href="#">Privacy Policy</a>
+<a class="hover:text-primary transition-colors" href="#">Terms of Service</a>
+<a class="hover:text-primary transition-colors" href="#">Contact</a>
+</div>
+</div>
+<div class="mt-8 pt-8 border-t border-slate-100 dark:border-slate-800/50 text-center">
+<p class="text-xs text-slate-400">© 2024 Global Health Advisors. All rights reserved. Professional Healthcare Consulting Services.</p>
+</div>
+</div>
+</footer>
+
+</body></html>
